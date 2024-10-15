@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="dist/all.css">
+    <!-- STYLE CSS -->
     <link rel="stylesheet" href="dist/styles.css">
     <title>Document</title>
 </head>
-<body class="font-halflings">
+<body class="font-halflings text-1.2rem">
     <header>
         <!-- navigation -->
         <nav class="flex justify-between items-center bg-slate-900 h-10">
@@ -19,11 +22,11 @@
             </ul>
         </nav>
         <!-- section HERO -->
-        <section class="flex-col justify-center items-center text-center text-gray-200 h-full w-full bg-heroBg bg-center-right">
+        <section class="flex flex-col justify-center items-center text-center text-gray-200 h-full w-full bg-heroBg bg-cover bg-right-top">
             <div class="flex flex-col justify-center items-center gap-4 pt-4">
                 <h2 class="text-5xl w-2/5 text-white mb-8">Our goal is to inspire Tallahassee to write 1,000,000 lines of code_</h2>
                 <p class="w-2/5 mb-6">All over the country people are talking the <span class="font-bold text-white">HOUR OF CODE</span> challenge issued by <span class="font-bold text-white">CODE.org</span>. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
-                <a class=" bg-red-500 text-4xl font-bold py-2 px-4 h-16 rounded mb-6 transition duration-300 transform hover:bg-red-600 hover:scale-105" href="">Learn more</a>
+                <a class=" bg-primaryColor text-4xl font-bold py-2 px-4 h-16 rounded mb-6 transition duration-300 transform hover:bg-red-600 hover:scale-105" href="">Learn more</a>
                 <div class="img_wrapper flex justify-center items-center mb-10">
                     <img src="images/code.png" alt="Image du mode code stylisée">
                 </div>
@@ -34,34 +37,37 @@
         <section class="presentation flex flex-col justify-center items-center">
             <div class="img_wrapper flex flex-col justify-center items-center gap-4 mt-10">
                 <img src="images/academy-brand-med.png" alt="Logo de l'académie">
-                <p class="text-red-600 text-2xl inline-block"><span class="">WHO WE ARE</span></p>
+                <p class="text-primaryColor text-2xl inline-block mb-2"><span class="border-b-2 border-red-600 inline-block pb-2">WHO WE ARE</span></p>
             </div>
-            <p class="w-2/3 text-center mt-6"">MASSIVE Academy</span>. We aim to improve education through both method - effective project-based learning - and materiel - by teaching skills that are applicable to improving your life today</p>
+            <p class="w-2/4 text-center mt-6">We are <span class="text-primaryColor">MASSIVE Academy</span>. We aim to improve education through both method - effective project-based learning - and materiel - by teaching skills that are applicable to improving your life today</p>
         </section>
-        <section class="involved">
-            <h3>GET INVOLVED</h3>
-            <article class="involved_container">
-                <div class="students">
-                    <!-- favicons -->
-                     <h3>STUDENTS</h3>
-                     <p>Want to learn how to code ? Want to help us get 1?000?000 lines ? Click the button below and we'll let you know how to get involved</p>
-                     <a href="">Start Learning</a>
+        <!-- PARTIE INVOLVED -->
+        <section class="involved flex flex-col justify-center items-center mt-8 pt-10 pb-10 bg-gray-100">
+            <h3 class="pt-8 pb-8 text-3xl text-primaryColor">GET INVOLVED</h3>
+            <article class="involved_container flex justify-center gap-16 w-[1720px] text-center">
+                <div class="students flex flex-col items-center w-1/4 gap-4">
+                    <i class="fa-solid fa-user text-5xl text-white w-[80px] h-[80px] bg-black rounded-full flex justify-center items-center"></i>
+                     <h3 class="text-primaryColor">STUDENTS</h3>
+                     <p class="w-3/4">Want to learn how to code ? Want to help us get 1?000?000 lines ? Click the button below and we'll let you know how to get involved</p>
+                     <a class="text-primaryColor py-0.5 px-2 border border-grey rounded" href="">Start Learning</a>
                 </div>
-                <div class="educators">
-                    <h3>EDUCATORS</h3>
-                    <p>Want to bring this initiative to your school or institution ? Awesome! Click the button below and we'll make it happen</p>
-                    <a href="">Join The Initiative</a>
+                <div class="educators flex flex-col items-center w-1/4 gap-4">
+                    <i class="fa-solid fa-pencil text-white text-5xl text-white w-[80px] h-[80px] bg-black rounded-full flex justify-center items-center"></i>
+                    <h3 class="text-primaryColor">EDUCATORS</h3>
+                    <p class="w-3/4">Want to bring this initiative to your school or institution ? Awesome! Click the button below and we'll make it happen</p>
+                    <a class="text-primaryColor py-0.5 px-2 border border-grey rounded" href="">Join The Initiative</a>
                 </div>
-                <div class="sponsors">
-                    <h3>SPONSORS</h3>
-                    <P>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved</P>
-                    <a href="">Give Support</a>
+                <div class="sponsors flex flex-col items-center w-1/4 gap-4">
+                    <i class="fa-solid fa-money-bill text-white text-5xl text-white w-[80px] h-[80px] bg-black rounded-full flex justify-center items-center"></i>
+                    <h3 class="text-primaryColor">SPONSORS</h3>
+                    <P class="w-3/4">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved</P>
+                    <a class="text-primaryColor py-0.5 px-2 border border-grey rounded" href="">Give Support</a>
                 </div>
             </article>
         </section>
     </main>
     <footer>
-        <div class="footer_text">
+        <div class="footer_text mt-20">
             <img src="" alt="">
             <p>One Community_ One Million Lines of Code_</p>
         </div>
