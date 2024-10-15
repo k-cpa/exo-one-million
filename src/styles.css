@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: halflings;
-    src: url(../fonts/glyphicons-halflings-regular.ttf);
+    font-family: roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 

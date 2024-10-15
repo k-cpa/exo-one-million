@@ -4,17 +4,20 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        halflings: ["halflings"],
+        roboto: ["roboto"],
       },
       fontSize: {
         '1.2rem': '1.2rem',
+        '1.5rem': '1.5rem',
       },
       backgroundImage: {
         'heroBg': "url('../images/hero-image.jpg')",
       },
       colors: {
-        'primaryColor': "#F74C3D"
-      }
+        'primaryColor': "#F74C3D",
+        'bgNav': '#222222'
+      },
+
     },
   },
   plugins: [],
